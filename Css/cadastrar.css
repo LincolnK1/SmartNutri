@@ -1,0 +1,26 @@
+*{ margin: 0; padding: 0;}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 12%;
+}
+#avatar{
+    display: flex;
+    flex-direction: column;   
+}
+#redes{ 
+    display: flex; 
+    flex-direction: column;    
+}
+p{
+    font-weight: bold;
+}
+.btn{
+    width: 186px;  
+}
+.form-control{
+    margin: 10px;
+    width: 250px;
+}

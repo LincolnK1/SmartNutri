@@ -1,0 +1,177 @@
+*{ margin: 0 ; padding: 0; box-sizing: border-box;}
+
+/*--⬇️Navbar⬇️--*/
+.row{
+    margin: 0; 
+}
+header, .navbar{
+    background-color:white;
+}
+
+#barra{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-brand{
+    padding: 0;
+}
+#links-navbar a{
+    color: rgb(4, 224, 253);
+    margin: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+#links-navbar a:hover{
+    background-color: rgb(3, 137, 247);
+    border-radius: 10px;
+    transition: all 0.5s;   
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+/* ⬆️NavBar⬆️  */
+/* ⬇️OffCanvas⬇️ */
+.offcanvas-body #avatar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.offcanvas-body #main-canvas{
+    display: flex;
+    flex-direction: column;    
+}
+.offcanvas-body #main-canvas a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+.offcanvas-body #footer-canvas{
+    display: flex;
+    flex-direction: column; 
+    padding-top: 70px;
+}
+.offcanvas-body #footer-canvas a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+.offcanvas-body  a:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+/*⬆️OffCanvas⬆️  */
+/* ⬇️Main⬇️ */
+.container-fluid{
+    padding: 0;
+}
+#carouselExampleDark .carousel-inner, #carouselExampleDark .carousel-item{
+    height: 90vh;
+    padding-top: 50px;
+}
+/*  */
+#exercicios{
+    padding-top: 10px;
+}
+#exercicios p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#img-exercicios ul{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;  
+}
+#img-exercicios ul li{
+    list-style: none;    
+}
+#img-exercicios ul li p{
+    font-size: 15px;
+}
+#img-exercicios ul li img{
+    border-radius: 10px;
+    width: 300px;
+}
+#img-exercicios ul li a:hover{
+    opacity: .5;
+    transition: 0.4s;
+}
+/*  */
+#dietas{
+    padding-top: 15px;
+}
+#dietas p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#img-dietas ul{
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+#img-dietas ul li{
+    list-style: none;         
+}
+#img-dietas ul li p{
+    font-size: 15px;
+}
+#img-dietas ul li img{
+    border-radius: 10px;
+    
+}
+#img-dietas ul li a:hover{
+    opacity: .5;
+    transition: 0.4s;
+}
+/*  */
+#conquistas{
+    padding-top: 100px;
+}
+#conquistas h2{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#img-trofeu ul{
+    display: flex;
+    justify-content: center;
+    
+}
+#img-trofeu ul li {
+    list-style: none;
+    padding: 10px;
+    
+}
+#img-trofeu ul li p{
+    font-size: 15px;
+    text-align: center;   
+}
+/*  */
+#cards ul{
+    display: flex;
+    justify-content: center;
+}
+#cards ul li{
+    list-style: none;
+    padding: 20px;
+}
+/* ⬆️Main⬆️ */
+/* ⬇️Footer⬇️ */
+footer{
+    background-color: black;
+    width: 100%;
+    
+}
+footer p{
+    color: white;
+}
+#tabela-premium img{
+    height: 400px;
+    padding-bottom: 50px;
+}
+/* ⬆️Footer⬆️  */

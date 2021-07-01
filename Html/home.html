@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <title> Bem vindo a Smartfit </title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../Css/home.css">        
+    </head>
+    <body> 
+        <header> 
+            <div id="barra" class="container-fluid">
+                <nav class="navbar navbar-expand-lg fixed-top">                                     
+                    <div id="logo" class="navbar-brand col-3 d-flex justify-content-center">
+                        <img src="imagens/LogoFundoBranco.jpg" alt="Logo SmartNutri" title="Logo SmartNutri">   
+                    </div>
+                    <div id="links-navbar" class="collapse navbar-collapse col-6 justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="" class="nav-link active" aria-current="page">Para Você</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Meta</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Conquistas</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Loja</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Premium</a></li>                                                      
+                        </ul>
+                    </div>
+                    <div class="navbar-brand col-3 d-flex justify-content-center ">
+                        <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="44" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">MENU</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div id="avatar">
+                                    <img src="imagens/Avatar.png" alt="Avatar">
+                                    <a id="perfil">Editar perfil</a>
+                                </div>
+                                <div id="main-canvas">
+                                    <a href="">Relátorio</a>
+                                    <a href="">Calcular Corrida</a>
+                                    <a href="">Localizar academias</a>
+                                    <a href="">Encontre amigos</a>
+                                </div>
+                                <div id="footer-canvas">
+                                    <a href="">Configurações</a>
+                                    <a href="">Ajuda e suporte</a>
+                                    <a href="">Fale conosco</a>
+                                    <a href="">Sair</a>
+                                </div>
+                            </div>
+                          </div>
+                    </div>                       
+                </nav>
+            </div>
+        </header> 
+        <main>
+            <section id="carousel" class="container-fluid" > 
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="imagens/teste4k.jpg" class="d-block w-100" alt="...">     
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="imagens/suplementos.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>                                                    
+            </section>
+            <section id="exercicios" class="container-fluid">
+                <p>Exercicíos</p>
+                <div id="img-exercicios" class="row">
+                    <ul>
+                        <li class="col-2"><a href="treino-peito.html"><img src="imagens/peito.jpeg" alt="Acessar exercicíos de perna"></a><p>Peito</p></li>
+                        <li class="col-2"><a href="treino-perna.html"><img src="imagens/perna.jpg" alt="Acessar exercicíos de perna"></a><p>Perna</p></li>
+                        <li class="col-2"><a href="treino-costas.html"><img src="imagens/costas.jpg" alt="Acessar exercicíos de perna"></a><p>Costas</p></li>
+                        <li class="col-2"><a href="treino-braço.html"><img src="imagens/braço.jpg" alt="Acessar exercicíos de perna"></a><p>Braço</p></li>
+                        <li class="col-2"><a href="treino-abdomen.html"><img src="imagens/abdomen.jpg" alt="Acessar exercicíos de perna"></a><p>Abdômen</p></li>
+                    </ul>
+                </div>
+            </section> 
+            <section id="dietas" class="container-fluid">
+                <p>Dietas</p>
+                <div id="img-dietas" class="row">
+                    <ul>                       
+                        <li class="col-2"><a href="prato-carbonico.html"><img src="imagens/carbonico.png" alt="Acessar prato carbonico"></a><p>Carbonico</p></li>
+                        <li class="col-2"><a href="prato-fit.html"><img src="imagens/fitness.jpg" alt="Acessar fitness"></a><p>Fitness</p></li>
+                        <li class="col-2"><a href="detox.html"><img src="imagens/detox.jpg" alt="Acessar detox"></a><p>Detox</p></li>
+                        <li class="col-2"><a href="prato-vegano.html"><img src="imagens/vegano.jpg" alt="Acessar prato vegano"></a><p>Vegano</p></li>
+                        <li class="col-2"><a href="prato-vegetariano.html"><img src="imagens/vegetariano.jpg" alt="Acessar prato vegetariano"></a><p>Vegetariano</p></li>    
+                    </ul>
+                </div>
+            </section> 
+            <section id="conquistas">
+                <h2>Conquistas</h2>
+                <div id="cards">
+                    <ul>
+                        <li>
+                            <div class="card" style="width: 18rem;">
+                                <img src="imagens/trofeu.png" class="card-img-top" alt="Troféu">
+                                <div class="card-body">
+                                  <h5 class="card-title">⭐️⭐️★★★</h5>
+                                  <p class="card-text">Parábens você ganhou 10% de desconto em produtos.</p>
+                                  <p class="card-text">Por completar o treino por 3 dias consecutivos.</p>
+                                  <a href="#" class="btn btn-success">Obtenha</a>
+                                </div>
+                              </div>
+                        </li>
+                        <li>
+                            <div class="card" style="width: 18rem;">
+                                <img src="imagens/trofeu.png" class="card-img-top" alt="Troféu">
+                                <div class="card-body">
+                                  <h5 class="card-title">⭐️⭐️⭐️★★</h5>
+                                  <p class="card-text">Complete dias 3 treinamento consecutivos, Na dificuldade 3.</p>
+                                  <p class="card-text">E ganhe 20% de desconto em produtos.</p>
+                                  <a href="#" class="btn btn-danger">Conquistar</a>
+                                </div>
+                            </div>
+                        </li>    
+                        <li>
+                            <div class="card" style="width: 18rem;">
+                                <img src="imagens/trofeu.png" class="card-img-top" alt="Troféu">
+                                <div class="card-body">
+                                  <h5 class="card-title">⭐️⭐️⭐️⭐️⭐️</h5>
+                                  <p class="card-text">Adquira o pacote Premium Diamante. </p>
+                                  <p class="card-text">E ganhe 50% de desconto em produtos. </p>
+                                  <a href="#" class="btn btn-danger">Conquistar</a>
+                                </div>
+                            </div>
+                        </li>                       
+                    </ul>
+                </div>               
+            </section>                                                                                                                                                                                                                        
+        </main>
+        <footer>
+            <section id="premium" class="container-fluid">
+                <div class="row">
+                    <div id="tabela-premium" class="col-6">
+                        <img src="imagens/tabela-premium.jpg" alt="Tabela Premium">
+                    </div>
+                    <div id="info" class="col-6">
+                        <img src="imagens/heathtrack.jpg" alt="Logo HeathTrack">
+                        <p>HealthTack é uma iniciativa FIAP-Faculdade de Informática e Administração Paulista,
+                            Onde seus alunos foram desafiados a criar um sistema envolvendo a área da saúde, Então eu (Lincoln Kauê Pereira Silva)
+                            criei a SmartNutri...
+                        </p>
+                        <p>SmartNutri é um sistema onde há inumeras formas pra manter a sua saúde, com exercicícios, dietas e chats
+                            onde profissionais como Nutricionistas e Professores de Esporte Físico pode te atender, temos também uma loja, com produtos
+                            desde suplementos a equipamentos, para melhorar seu treinamento.
+                        </p>
+                        <p>SmartNutri sabe reconhecer seus clientes, então quando completar missões, receberá vantagens como, descontos, frete grátis e produtos da nossa loja
+                            totalmente grátis.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>     
+    </body>        
+</html>
